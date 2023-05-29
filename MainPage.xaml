@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_Progra.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label
+                x:Name="AutosLabel"
+                Text=""
+                SemanticProperties.HeadingLevel="Level2"
+                FontSize="18"
+                HorizontalOptions="Start" />
+
+            <Label
+                x:Name="EstadoAutoLabel"
+                Text=""
+                SemanticProperties.HeadingLevel="Level2"
+                FontSize="18"
+                HorizontalOptions="Start" />
+
+            <Button
+                x:Name="PICKUP"
+                Text="PickUp"
+                SemanticProperties.HeadingLevel="Level1"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="mostrarPickup"
+                HorizontalOptions="End" />
+
+
+            <Button
+                x:Name="SEDAN"
+                Text="Sedan"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="mostrarSedan"
+                HorizontalOptions="End" />
+
+            <Button
+                x:Name="SUVxd"
+                Text="Suv"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="mostrarSuv"
+                HorizontalOptions="End" />
+
+
+            <Button
+                x:Name="_4X4xd"
+                Text="4x4"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="mostrarCXC"
+                HorizontalOptions="End" />
+
+            <Button
+                x:Name="Encender"
+                Text="Encender"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="fEncender"
+                HorizontalOptions="End" />
+
+            <Button
+                x:Name="Acelerar"
+                Text="Acelerar"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="fAcelerar"
+                HorizontalOptions="End" />
+
+            <Button
+                x:Name="Frenar"
+                Text="Frenar"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="fFrenar"
+                HorizontalOptions="End" />
+
+            <Button
+                x:Name="Apagar"
+                Text="Apagar"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="fApagar"
+                HorizontalOptions="End" />
+
+
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
